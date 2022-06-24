@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  margin: 5;
+  padding: 5;
+}
+
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 150px;
+}
+
+.headpic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-direction: column-reverse;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 1;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  font-size: medium;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+/* .codepen {
+}
+
+.linkedin {
+}
+
+.github {
+}
+ */
